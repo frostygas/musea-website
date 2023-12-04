@@ -1,4 +1,20 @@
-p {
-    text-align: center; /*hier center ik de text in html (alle <p>'s */
-    color: lightpink; /*hier pas ik de kleur aan */
+.flex1 { /*hier maak ik een class aan zodat ik hem vaker kan gebruiken*/
+    display: flex; /*rond fucken met flex aangezien docent dat aanraadde*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
+
+
+
+#top {
+    text-align: left; /*hier center ik de text in html (alle <p>'s) */
+    /*color: lightpink; hier pas ik de kleur aan (op het moment niet want grrr ziet er slecht uit) */
+    margin: -8px px -8px 25px;
+}
+
+
+
+
